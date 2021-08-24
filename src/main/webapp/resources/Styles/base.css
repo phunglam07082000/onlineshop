@@ -1,0 +1,56 @@
+:root{
+	--primary-color:#111;
+	--white-color:#fff;
+
+}
+
+*{
+
+ 
+	font-family: 'Roboto', sans-serif;
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; 
+    border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+
+}
+
+*::selection{
+
+    background: var(--primary-color);
+    color: var(--white-color);
+}
+
+h1, h3{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+html{
+
+	font-size: 62.5%;
+    overflow-x: hidden;
+    
+}
+
+body{
+    overflow-x: hidden;
+   
+   
+}
+
+html::-webkit-scrollbar{
+    width:1.4rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:rgb(77, 75, 75);
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--primary-color);
+}
